@@ -14,6 +14,11 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "wallet-lib": [
+        "projects/wallet-lib/src/public-api"
+      ]
+    }
   }
 }
