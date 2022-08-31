@@ -9,6 +9,9 @@ feature/exercise-3 - Starting point for bonus exercise, working example of exerc
 
 The Micro Frontend playbook powerpoint is available at the root of the repo
 
+Reference Architectures for Module Federation: https://github.com/module-federation/module-federation-examples
+
+
 Exercise notes:
 
 Exercise 1
