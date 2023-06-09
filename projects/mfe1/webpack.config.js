@@ -28,5 +28,5 @@ module.exports = withModuleFederationPlugin({
       strictVersion: true,
       requiredVersion: "auto",
     },
-  }),
+  }),sharedMappings: ['wallet-lib'],
 });
