@@ -10,10 +10,10 @@ export const APP_ROUTES: Routes = [
     pathMatch: 'full',
   },
 
-  {
-    path: 'cryptos',
-    loadChildren: () => loadRemoteModule({ type: 'manifest', remoteName: 'mfe1', exposedModule: './Module'}).then(m => m.CryptosModule)
-    },
+  // {
+  //   path: 'cryptos',
+  //   loadChildren: () => loadRemoteModule({ type: 'manifest', remoteName: 'mfe1', exposedModule: './Module'}).then(m => m.CryptosModule)
+  //   },
 
   {
     path: '**',
